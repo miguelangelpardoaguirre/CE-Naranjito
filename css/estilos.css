@@ -20,6 +20,11 @@ header{
     max-height: 250px;
 }
 
+.qr{
+    max-width: 300px;
+    margin-top: 1em;
+}
+
 /* General body styles */
 body {
     font-family: 'Arial', sans-serif;
