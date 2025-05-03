@@ -1,0 +1,282 @@
+
+header{
+    box-shadow: 0 3px 5px rgba(10, 10, 10, 0.171);
+    margin-bottom: 2em;
+    padding: 1em 0;
+    background-color: rgb(245, 245, 245);
+}
+
+#logo{
+    height: 60px; 
+    border-radius: 50rem;   
+}
+
+#fotos img{
+    height: 200px;
+    width: 250px;
+}
+
+#noticias img{
+    max-height: 250px;
+}
+
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #003366;  /* Azul oscuro */
+    color: white;
+    padding: 20px 0;
+}
+
+#logo {
+    max-width: 150px;
+    display: block;
+    margin: auto;
+}
+
+.navbar {
+    background-color: #003366;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 20px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8f9fa;
+    background-color: #005cbf;
+    border-radius: 5px;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+/* Section Styles */
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #003366;
+    margin-bottom: 1rem;
+}
+
+.text-primary {
+    color: #003366 !important;
+}
+
+.bg-primary {
+    background-color: #003366 !important;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+/* Welcome section */
+section.py-5.text-center {
+    background-color: #003366;
+    color: white;
+    padding: 60px 0;
+}
+
+section.py-5.text-center h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.video-fondo {
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .video-fondo video {
+    object-fit: cover;
+  }
+  
+/*carrucel*/
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+/* Noticias (News) section */
+#noticias {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.card .btn-primary {
+    background-color: #003366;
+    border: none;
+}
+
+.card .btn-primary:hover {
+    background-color: #005cbf;
+}
+
+/* Donation section */
+#donaciones {
+    padding: 60px 0;
+    background-color: #ffffff;
+}
+
+#donaciones .btn-primary {
+    background-color:  #630663;
+    border: none;
+    font-size: 1.1rem;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+#donaciones .btn-primary:hover {
+    background-color: #005cbf;
+}
+
+#donaciones .border {
+    border: 2px solid #003366;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #f8f9fa;
+}
+
+#donaciones h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #003366;
+}
+
+#donaciones p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #003366;
+}
+
+#donaciones p {
+    font-size: 1.1rem;
+}
+
+/* Footer styles */
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #f8f9fa;
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* Mobile Responsive Adjustments */
+@media (max-width: 768px) {
+    .navbar-nav .nav-link {
+        font-size: 1rem;
+        padding: 10px 15px;
+    }
+
+    #logo {
+        max-width: 120px;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .card-title {
+        font-size: 1.4rem;
+    }
+
+    .card-text {
+        font-size: 0.9rem;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Estilo para el video de fondo */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+
+  .video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+  }
+
+  .video-background video {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+  }
+
+  header, main, footer, section {
+    position: relative;
+    z-index: 1;
+  }
+
+  .bg-light {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    color: black;
+  }
+
+  .carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+  }
